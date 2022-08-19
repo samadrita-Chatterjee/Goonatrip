@@ -1,0 +1,115 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Go-on-a-Trip</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/hillstations">Hillstations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/trekking">Trekking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/lakes">Lakes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/wildlife">Wildlife</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/contact">Contact</a>
+              </li>
+              
+              
+    
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-----------------------navbar end----->
+      <article>
+        
+        <h1 style="color :indigo ;"> Jammu & Kashmir</h1>
+        <br>
+        <p>
+        <img src="{% static 'images/image20.jpg' %}" alt="..." style="float:right";height="600";width="500">
+        Come and explore the crown of India- where the natural beauty is blest by the Gods... where the misty morning sprawls over the snow clad peaks... where the sunlight gives a gentle touch to the woods and waters, valleys and hillside... If there is heaven on earth, it is here in the divine lands of Jammu & Kashmir !!</p>
+        <p>Jammu & Kashmir, the sixth largest state of the Indian union, is mostly mountainous with stretches of valleys and some mountain lakes. Nature lovers from all over the world flock to this northernmost extremity of India for destinations such as Gulmarg, Pahalgam, Leh, Patnitop, and Ladakh, comparable to the Alps.
+        </p>
+        <!----------------------p tag end----------->
+      </article>
+      <br><br>
+      <h1 style="color :Orangered " > Best kashmir Package</h1>
+      <br>
+      <h3>Kashmir ,Pahalgam ,Srinagar </h3>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="{% static 'images/img21.jpg' %}"  class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Kashmir Pahalgam Tour Package</h5>
+                <p> Rs.17000</p>
+                <p class="card-text"> 7 Nights 6 days-Hotel : 3 star- Meals : Breakfast,Dinner -Sightseeing : Srinagar,Gulmarg,Pahalgam, Sonmarg</p>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="{% static 'images/img24.jpg' %}"  class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kashmir Valley Tour Package</h5>
+                <p>Rs. 15000</p>
+                <p class="card-text"> 6 Nights 5 days-Hotel : 4 star- Meals : Breakfast,Dinner -Sightseeing : Srinagar,Gulmarg,Sonmarg</p>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="{% static 'images/img23.jpg' %}"  class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Srinagar Valley Tour Package</h5>
+                <p>Rs.17999</p>
+                <p class="card-text">8 Nights 7 days-Hotel : 4.5 star- Meals : Breakfast,Dinner -Sightseeing : Srinagar,Dodhpathri,Pahalgam,Gulmarg,Sonmarg</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <br><br><br><br><br><br>
+      <footer class="bg-success text-white position-relative">
+        <p class="text-center py-2 mr-0">@Copyright 2021-2031 www.goonatrip.com.All rights reserved .</p>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>

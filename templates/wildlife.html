@@ -1,0 +1,76 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Go-on-a-Trip</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/hillstations">Hillstations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/trekking">Trekking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/lakes">Lakes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/wildlife">Wildlife</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/contact">Contact</a>
+              </li>
+            </ul>  
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-------------------------Navbar end--------->
+      <article>
+        <h1 style="color : indigo ;"> Wildlife Of Kashmir </h1>
+        <img src="{% static 'images/img4.jpg' %}" height="400" width="500">
+        <p>The wildlife sanctuaries of J&K are known for some of the rarest and endangered species of wild animals. Hangul (Kashmiri stag; an endangered species of red deer), leopard, wild cats, Himalayan black bear, musk deer, Himalayan marmot and species of wild goats like the makhor can be seen. Various Himalayan birds, colorful pheasants like the crimson tragopan, monal pheasant, blood pheasant and koklass pheasant, golden eagles and bearded vultures are also seen encircling the majestic mountains. Several other fascinating and exquisite forms of life can be seen in the national parks and sanctuaries in the state.</p>
+      </article>
+      <article>
+        <h3 style="color : Orangered ;"> Dachigam National Park </h3>
+        <p>Splendid forests, magnificent scenery and unique topographical variety are the factors that make Dachigam National Park the favourite of tourists. Situated 22 km from Srinagar, Dachigam national park is simply a dreamland for jungle enthusiasts. The park covers an area of 141 square kilometres with some of the most exotic flora and fauna species. The appearence of the park changes every season. </p>
+      </article>
+      <article>
+        <h3 style="color : Orangered ;"> Gulmarg Biosphere Reserve </h3>
+        <p>This biosphere lies 48 km from Srinagar and is rich in flora, fauna and avi-fauna (birds). A major part of the 180 square kilometres biosphere is covered in forests consisting mainly of conifers. The various species of mammals and birds can be seen here in the months of September to March and March to May, respectively. The Gulmarg Biosphere provides an opportunity to enjoy the natural beauty at an altitude of 2,400 to 4,300 meters above the sea level.</p>
+      </article>
+      <article>
+        <h3 style="color : Orangered ;"> Kishtwar High Altitude National Park </h3>
+        <p>Established in 1981, the Kishtwar National Park is located in Jammu region, on a plateau above the Chenab River and below the Nagin Sheer glacier. The park is unique in terms of offering waterfalls, trekking, and sapphire mines of paddar at an altitudinal range of 1,700 to 4,800 meters above sea level. Along with different types of forest vegetation, one can spot about 15 species of mammals and about 50 species of birds in the Kishtwar park. The 400 sq km park is covered with exposed granite and marble rocks. Mostly people visit Kishtwar park in the months of June To October.</p>
+      </article>
+      <airticle>
+        <h3 style="color : Orangered ;"> Hemis High Altitude Wildlife sanctuary </h3>
+        <p>A renowned sanctuary of Ladakh, Hemis is popular for Snow Leopards, Shapu, Bharal, Wild Sheeps and Goats. Being the largest park in South Asia and highest in the world, the Hemis High Altitude Wildlife Sanctuary covers an area of about 3,350 sq. Km and is located at 12000 feet from sea level. During winter, the nearby Zanskar River and its tributaries become frozen and the temperature drops typically to -15°C to -20°C at night. Although summer temperatures can reach upto 30°C in the lower elevations, snowfall can occur at any time of year. The best time for mammal and bird viewing is considered September to March, and March to May respctively.</p>
+      </airticle>
+      <br><br><br><br>
+      <footer class="bg-success text-white position-relative">
+        <p class="text-center py-2 mr-0">@Copyright 2021-2031 www.goonatrip.com.All rights reserved ."</p>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
